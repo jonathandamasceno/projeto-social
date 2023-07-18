@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-image: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+
+}
+main{
+    height: 100vh;
+    position: relative;
+    
+}
+#celular{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:311px;
+    height: 627px;
+    transform: translate(-50%, -50%);
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+}
+
+#redes-sociais{
+    position: absolute;
+    top: 1%;
+    left: 75%;
+
+
+
+}
