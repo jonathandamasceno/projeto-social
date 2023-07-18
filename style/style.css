@@ -7,14 +7,13 @@ html, body{
     width: 100vw;
 }
 body{
-    background-image: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
-
+    background-attachment: fixed;
 }
 main{
     height: 100vh;
     position: relative;
-    
 }
 #celular{
     position: absolute;
@@ -23,15 +22,15 @@ main{
     width:311px;
     height: 627px;
     transform: translate(-50%, -50%);
-    background-image: url(../imagens/frame-iphone.png);
+   background-image: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
 }
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
 
-#redes-sociais{
-    position: absolute;
-    top: 1%;
-    left: 75%;
-
-
+    width:268px;
+    height: 472px;
 
 }
